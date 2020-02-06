@@ -2,7 +2,7 @@
   <div id="app" class="container">
       <div class="container__wrapper">
         <nav-menu></nav-menu>
-        <router-view @sendForm='sendForm'></router-view>
+        <router-view></router-view>
       </div>
   </div>
 </template>
@@ -16,11 +16,6 @@ export default {
   components: {
     NavMenu: NavMenu
   },
-  methods: {
-    sendForm() {
-    
-    }
-  }
 }
 </script>
 
